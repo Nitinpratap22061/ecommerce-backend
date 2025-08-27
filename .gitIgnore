@@ -1,0 +1,24 @@
+# dependencies
+/node_modules
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+
+# testing
+/frontend/coverage
+
+# production
+/frontend/build
+
+# misc
+# Ignore all environment files
+*.env
+*.env.*  
+/backend/config/config.env
+/frontend/.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+config/config.env
+yarn-error.log*
